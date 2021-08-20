@@ -17,6 +17,7 @@ const studentSchema = new mongoose.Schema({
       }
     },
   },
+
   phone: {
     type: Number,
     minLen: 10,
@@ -25,6 +26,7 @@ const studentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+
   date: {
     type: Date,
     default: Date.now,
